@@ -98,6 +98,7 @@ export default function useScript({
         // `status` is now guaranteed to be defined: either the old status
         // from a previous load, or a newly created one.
 
+        setLoading(status.loading);
         const handleLoad = () => {
             if (status) status.loading = false;
             setLoading(false);

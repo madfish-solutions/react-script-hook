@@ -1,6 +1,6 @@
 {
-    "name": "react-script-hook",
-    "version": "1.7.2",
+    "name": "@temple-wallet/react-script-hook",
+    "version": "1.7.3",
     "description": "React hook to dynamically load an external script and know when its loaded",
     "keywords": [
         "react",
@@ -11,7 +11,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/hupe1980/react-script-hook"
+        "url": "https://github.com/madfish-solutions/react-script-hook"
     },
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
